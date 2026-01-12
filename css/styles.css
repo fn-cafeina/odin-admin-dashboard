@@ -175,3 +175,29 @@ body {
 hr {
   border: 1px solid #00000029;
 }
+
+.trending {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.trending > div {
+  padding: 10px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.trending > div > div {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.trending > div > div > div:last-child > p:last-child {
+  font-size: 0.8rem;
+  opacity: 0.8;
+}
